@@ -19,8 +19,7 @@ import sys
 import time
 
 STEPS = [
-    ('6b: Assumption checks (raw)', 'step6b_assumptions.py'),
-    ('6b: Assumption checks (sqrt recheck)', 'step6b_recheck.py'),
+    ('6b: Assumption checks (raw + sqrt)', 'step6b_assumptions.py'),
     ("6a': Primary analysis (Total_distance)", 'step6a_primary.py'),
     ("6a': Burst-specific metrics", 'step6a_burst_metrics.py'),
     ("6a': Per-trial consistency gate", 'step6a_trial_gate.py'),

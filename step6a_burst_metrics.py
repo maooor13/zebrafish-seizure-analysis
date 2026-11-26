@@ -155,9 +155,9 @@ for dv in dvs:
         print(f"  OLS interaction p = {ols_interaction_p:.6f} ({'sig' if ols_sig else 'ns'})")
         print(f"  MW headline p (raw) = {mw_p:.6f}, (Bonf) = {mw_bonf:.6f} ({'sig' if mw_sig else 'ns'})")
         if agree:
-            print(f"  → AGREE — robust finding")
+            print(f"  -> AGREE — robust finding")
         else:
-            print(f"  → DISAGREE — zero-inflation likely affecting OLS;")
+            print(f"  -> DISAGREE — zero-inflation likely affecting OLS;")
             print(f"    report MW as primary for this metric, OLS as supplementary")
 
     # Collect summary

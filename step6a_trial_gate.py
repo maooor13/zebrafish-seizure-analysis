@@ -75,6 +75,6 @@ if coefs:
     print(f"  Significant (p<0.05): {n_sig}/{len(coefs)} trials")
     
     if not consistent:
-        print(f"\n  ⚠ One or more trials flip direction.")
+        print(f"\n  WARNING: one or more trials flip direction.")
         print(f"    This may indicate a device-L artifact or contamination.")
         print(f"    Report this honestly — do not hide (plan :262).")
